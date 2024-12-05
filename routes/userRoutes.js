@@ -22,7 +22,6 @@ const signupSchema = Joi.object({
 
 
 
-
 router.route('/')
 .get()
 router.route('/login')

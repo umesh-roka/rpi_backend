@@ -5,6 +5,8 @@ import bcrypt from 'bcrypt';
 import jwt from 'jsonwebtoken'
 
 
+
+
 export const userLogin =async(req,res)=>{
 const {email,password} = req.body;
 try {
@@ -42,6 +44,7 @@ username:isExist.username
   return res.status(400).json(`${err}`);
 }
 }
+
 
 
 
